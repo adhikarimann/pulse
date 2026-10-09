@@ -13,13 +13,13 @@ Import this repository in Vercel. Choose **Other** as the framework preset, leav
 ## Demo flows
 
 - Patient workspace for Saira: care plan, action completion, context check-in, adaptive timing, trend history, manual BP/glucose entries, device sync simulation, appointment requests, privacy settings, and data export.
+- Patient and clinician communication history: patients can view dated shared reviews, updates, and messages; clinicians can post patient-visible updates, while care-team notes remain private in the clinician view.
 - Health improvement is presented as the North Star in patient and clinician views. BP trend is visibly separated from care-plan engagement, which is labeled as a supporting behavior signal.
 - Doctor/clinic workspace: clinic overview, searchable patient list, patient continuity brief, review queue, care-plan builder, review notes, patient enrollment, and outcome reports.
 - Changes persist in the current browser with `localStorage`. The patient and clinician workspaces share the same sample records in that browser.
 
 ## Prototype boundaries
 
-This is a front-end product prototype, not a production healthcare service. There is no server, secure account system, multi-device data sharing, real Bluetooth/device integration, clinic messaging, appointment booking service, or clinical decision support. All patient data and measurements are illustrative and local to the browser. Do not enter real patient information.
+This is a front-end product prototype, not a production healthcare service. There is no server, secure account system, multi-device data sharing, real Bluetooth/device integration, live clinic messaging, appointment booking service, or clinical decision support. Messages and updates are simulated in local browser storage and do not reach a clinic. All patient data and measurements are illustrative. Do not enter real patient information.
 
 Pulse supports execution of the clinician's plan. It does not diagnose, prescribe, or change treatment. Clinical review and decisions remain with the care team.
-
