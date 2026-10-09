@@ -7,3 +7,16 @@
 .health-outcome{margin-bottom:15px;border-color:#b7d9c8;background:linear-gradient(115deg,#f3faf5 0%,#fff 68%);box-shadow:0 8px 25px #227b5c0a}.outcome-kicker{font-size:9px;font-weight:800;letter-spacing:1.3px;color:var(--green);display:flex;align-items:center;gap:7px}.outcome-kicker span{font-size:15px}.outcome-layout{display:grid;grid-template-columns:1.2fr .8fr;gap:22px;align-items:center;margin-top:11px}.outcome-copy h2{font:700 20px Manrope;letter-spacing:-.4px;margin:0 0 5px}.outcome-copy>p{font-size:11px;color:var(--muted);line-height:1.5;margin:0 0 12px}.outcome-comparison{display:flex;align-items:center;gap:18px}.outcome-comparison>div:not(.outcome-change){display:grid;gap:4px}.outcome-comparison small,.outcome-target small{font-size:9px;color:var(--muted)}.outcome-comparison b{font:700 23px Manrope;color:var(--ink)}.outcome-comparison b span{font:500 10px 'DM Sans';color:var(--muted)}.outcome-change{font-size:11px;font-weight:800;color:var(--green);background:#e5f4eb;border-radius:20px;padding:6px 9px}.outcome-target{border-left:1px solid #dcebe1;padding-left:20px}.outcome-target strong{display:block;font:700 14px Manrope;margin:5px 0}.outcome-target p{font-size:9px;color:var(--muted);line-height:1.5;margin:0 0 9px}.outcome-footer{border-top:1px solid #e3eee7;margin-top:13px;padding-top:10px;font-size:10px;color:#5f7068}.outcome-footer b{color:var(--deep)}.clinic-outcome{background:linear-gradient(115deg,#eaf5ee 0%,#fff 74%)}.clinic-outcome .outcome-copy h2{color:var(--deep)}
 @media(max-width:700px){.outcome-layout{grid-template-columns:1fr;gap:12px}.outcome-target{border-left:0;border-top:1px solid #dcebe1;padding:12px 0 0}.outcome-comparison{gap:10px}.outcome-comparison b{font-size:19px}}
 
+/* Shared patient and clinician communication history */
+.message-thread{display:flex;flex-direction:column;gap:12px;max-height:620px;overflow:auto;padding:4px 2px}
+.message-row{display:flex;justify-content:flex-start}
+.message-row.patient{justify-content:flex-end}
+.message-bubble{max-width:min(78%,650px);border:1px solid var(--line);border-radius:14px 14px 14px 4px;background:#f7faf8;padding:13px 15px}
+.message-row.patient .message-bubble{background:#eaf5ef;border-color:#d7e9df;border-radius:14px 14px 4px 14px}
+.message-meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;color:var(--subtle);font-size:10px}
+.message-meta b{color:var(--ink);font-size:11px}
+.message-kind{border-radius:20px;background:#fff;padding:3px 7px;color:var(--green-dark);font-size:9px;font-weight:700}
+.message-bubble p,.message-preview p{margin:8px 0 0;color:var(--ink);font-size:12px;line-height:1.6;white-space:pre-wrap}
+.message-preview{border-left:3px solid var(--green);padding:4px 0 4px 13px}
+.message-preview b{font-size:11px}
+@media(max-width:700px){.message-bubble{max-width:92%}.message-thread{max-height:none}}
