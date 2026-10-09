@@ -13,6 +13,7 @@ Import this repository in Vercel. Choose **Other** as the framework preset, leav
 ## Demo flows
 
 - Patient workspace for Saira: care plan, action completion, context check-in, adaptive timing, trend history, manual BP/glucose entries, device sync simulation, appointment requests, privacy settings, and data export.
+- Health improvement is presented as the North Star in patient and clinician views. BP trend is visibly separated from care-plan engagement, which is labeled as a supporting behavior signal.
 - Doctor/clinic workspace: clinic overview, searchable patient list, patient continuity brief, review queue, care-plan builder, review notes, patient enrollment, and outcome reports.
 - Changes persist in the current browser with `localStorage`. The patient and clinician workspaces share the same sample records in that browser.
 
