@@ -15,7 +15,7 @@
 .message-row.patient .message-bubble{background:#eaf5ef;border-color:#d7e9df;border-radius:14px 14px 4px 14px}
 .message-meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;color:var(--subtle);font-size:10px}
 .message-meta b{color:var(--ink);font-size:11px}
-.message-kind{border-radius:20px;background:#fff;padding:3px 7px;color:var(--green-dark);font-size:9px;font-weight:700}
+.message-kind{border-radius:20px;background:#fff;padding:3px 7px;color:var(--deep);font-size:9px;font-weight:700}
 .message-bubble p,.message-preview p{margin:8px 0 0;color:var(--ink);font-size:12px;line-height:1.6;white-space:pre-wrap}
 .message-preview{border-left:3px solid var(--green);padding:4px 0 4px 13px}
 .message-preview b{font-size:11px}
