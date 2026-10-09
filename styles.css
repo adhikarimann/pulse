@@ -20,3 +20,15 @@
 .message-preview{border-left:3px solid var(--green);padding:4px 0 4px 13px}
 .message-preview b{font-size:11px}
 @media(max-width:700px){.message-bubble{max-width:92%}.message-thread{max-height:none}}
+
+/* Clinician-selected wearable monitoring and patient-controlled permissions */
+.monitoring-plan{margin-top:18px;padding:14px;border:1px solid var(--line);border-radius:12px;background:#fbfcfa}
+.monitor-signal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:12px 0}
+.monitor-signal{display:flex;align-items:flex-start;gap:9px;padding:10px;border:1px solid var(--line);border-radius:9px;background:white;cursor:pointer}
+.monitor-signal input{accent-color:var(--green);margin:2px 0 0;flex:none}
+.monitor-signal b,.monitor-signal small{display:block}
+.monitor-signal b{font-size:10px}
+.monitor-signal small{color:var(--muted);font-size:9px;margin-top:3px;line-height:1.4}
+.health-consent-row{gap:10px}
+.health-consent-row .toggle{cursor:pointer}
+@media(max-width:520px){.monitor-signal-grid{grid-template-columns:1fr}}
